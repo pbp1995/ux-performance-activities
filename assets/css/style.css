@@ -26,8 +26,17 @@ p {
   margin-top: 10px;
 }
 
-.centered {
+.container {
+  position: relative;
   text-align: center;
+  color: black;
+  font-size: 60px;
+}
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mt {
